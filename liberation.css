@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    /* padding: 0; */
+    margin: 0;
+    }
+    html,
+    body {
+    scroll-behavior: smooth;
+    font-family: "Raleway", sans-serif !important;
+   color: #ac361b;
+    }
+    img {
+    width: 100%;
+    object-fit: cover;
+    }
+    .center_text {
+        text-align: center;
+    }
+    .row {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    }
+    /* .flex_column {
+        display: flex;
+        flex-direction: column;
+    } */
+    #header {
+    position: relative;
+    background: url("./img/bac_ho_1.jpeg");
+    background-size: 100%;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    }
+    .text_content {
+    position: absolute;
+    color: aqua;
+    bottom: 47px;
+    left: 77px;
+    /* text-align: center; */
+    width: 100%;
+    }
+    .text_heading {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .poem {
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    height: 450px;
+    width: 50%;
+    }
+    .poem__img {
+        width: 100%;
+    }
+    .poem__content {
+        height: 30%;
+        text-align: cente
+    }
+    .poem__heading {
+    font-weight: 400;
+    text-align: center;
+    }
+    .poem--description {
+        text-align: center;
+    }
+    .vietnam {
+        height: 450px;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .vietnam__heading {
+        text-align: center;
+    }
+    .picture__vn--today {
+    width: 100%;
+    
+    }
+/*horizontal: 0, vertical: 0, radius: 10px */
+    .picture__vn--past {
+    background: url("./img/bac_ho_1.jpeg") top center / cover no-repeat;
+    background-size: 100%;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    }
+    .author {
+        margin: 70px 0;
+    }
+    .author__info {
+        width: 100%;
+        gap: 30px;
+    }
+    .author__info a {
+    color: #ac361b;
+    }
+    .author__name {
+        font-weight: 500;
+    }
+.section {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.container {
+    width: 100%;
+    /*top-right-bottom -left*/
+    }
+.poem__img img {
+    height: 230px;
+}
